@@ -1,0 +1,39 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor Utilisateur
+
+rectangle menuPrincipal{
+    Utilisateur -- (Modifier les paramètres audio)
+    Utilisateur -- (Lancer une partie)
+    Utilisateur -- (Configurer paramètres de partie)
+    (Configurer paramètres de partie) -- (Configurer cond. de victoire)
+    (Configurer paramètres de partie) -- (Configurer joueurs&IA)
+    (Configurer paramètres de partie) .> (S'Authentifier) : include
+    (Modifier les paramètres audio) .> (S'Authentifier) : include
+    (Lancer une partie) .> (S'Authentifier) : include
+}
+
+rectangle Options{
+     (Consulter les statistiques) .> (Ouvrir Options) : extends
+    (Consulter les relations) .> (Ouvrir Options) : extends
+    (Envoyer une demande de Cessez-le-Feu ) .> (Consulter les relations) : extends
+    (Fermer Options) .> (Ouvrir Options) : extends
+    (Abandonner la partie) .> (Ouvrir Options) : extends
+    (Exporter les statistiques) .> (Ouvrir Options) : extends
+    (Consulter l’aide) .> (Ouvrir Options) : extends
+}
+
+
+rectangle CartedeJeu{
+   Utilisateur -- (Ouvrir Options)
+   Utilisateur -- (Passer le tour)
+   Utilisateur -- (Sélectionner une province)
+   Utilisateur -- (Sélectionner une unité)
+   (Former un pion).>(Sélectionner une province) : extends
+   (Déplacer une unité).>(Sélectionner une unité) : extends
+   
+  
+ 
+}
+@enduml
