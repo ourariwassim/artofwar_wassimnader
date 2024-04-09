@@ -230,7 +230,7 @@
     > détaillés sur leur performance, leurs réalisations, ou d'autres
     > données pertinentes pour analyse ou partage.
 
-> <img src="/media/image.png" style="width:4.08333in;height:5.11905in" />
+> ![Capture d’écran (716)](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/97ea2944-153c-4dc7-966a-961566d8a88c)
 >
 > <img src="/media/image2.png" style="width:4.35417in;height:1.5625in" />
 >
