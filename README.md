@@ -231,6 +231,5 @@
     > détaillés sur leur performance, leurs réalisations, ou d'autres
     > données pertinentes pour analyse ou partage.
 
-> ![image2](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/761232ba-18cf-44f8-8c78-6318b99cb195)
-
->![image3](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/7414f0db-77d4-40ec-a7c4-23320e48f2fc)
+![image2](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b4a9b18c-e32c-4fc1-b332-e8f36a9b231c)
+![image3](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/f64cf406-ad95-49c3-9411-fa1f36fea9c8)
