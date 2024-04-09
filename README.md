@@ -167,7 +167,8 @@
 
 > ***Diagrammes de cas d’utilisation:***
 >
-> <img src="/media/image.jpg" style="width:5.55787in;height:9.0625in" />
+> ![image1](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b26b06bc-8da5-48a8-b2aa-c9249d1c9374)
+
 >
 > **Priorités des cas d’utilisation :**
 >
@@ -230,10 +231,6 @@
     > détaillés sur leur performance, leurs réalisations, ou d'autres
     > données pertinentes pour analyse ou partage.
 
-> ![Capture d’écran (716)](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/97ea2944-153c-4dc7-966a-961566d8a88c)
->
-> <img src="/media/image2.png" style="width:4.35417in;height:1.5625in" />
->
-> <img src="/media/image3.png" style="width:4.125in;height:5in" />
->
-> <img src="/media/image4.png" style="width:4.39583in;height:1.48958in" />
+> ![image2](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/761232ba-18cf-44f8-8c78-6318b99cb195)
+
+>![image3](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/7414f0db-77d4-40ec-a7c4-23320e48f2fc)
