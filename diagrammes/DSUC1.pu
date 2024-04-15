@@ -1,0 +1,25 @@
+@startuml Cessez-le-Feu
+hide footbox
+
+actor Joueur
+participant System
+participant Ennemi
+
+Joueur -> System: Envoyer demande de cessez-le-feu à Joueur Ennemi
+activate System
+System -> Ennemi: Envoyer demande de cessez-le-feu
+alt Joueur Ennemi est une IA
+    Ennemi -> System: Décider d'accepter la demande (50% de chance)
+    alt Demande acceptée
+        System --> Joueur: Demande acceptée
+    else Demande refusée
+        System --> Joueur: Demande refusée
+    end
+else Joueur Ennemi est un joueur humain
+    Ennemi --> System: Répondre à la demande de cessez-le-feu
+    System --> Joueur: Réponse du joueur ennemi
+end
+
+deactivate System
+
+@enduml
