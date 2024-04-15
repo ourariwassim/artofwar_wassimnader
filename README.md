@@ -233,3 +233,18 @@
 
 ![image2](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b4a9b18c-e32c-4fc1-b332-e8f36a9b231c)
 ![image3](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/f64cf406-ad95-49c3-9411-fa1f36fea9c8)
+
+
+ -***Diagramme de sequence pour cas Authentification :***
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/1a9a5ee1-8f0b-462c-9a07-16ad78bc9438)
+
+ -***Diagramme de sequence pour cas AnalysePerformance :***
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/3b01e895-1ba9-44c7-bab6-19e75748951d)
+
+ -***Diagramme de sequence pour cas Cessez-le-feu :***
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/db9aef6d-f3b2-4db9-8e9c-437cfc14cc49)
+
+-***Diagramme de classes informel :***
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/f6a853d0-bb8e-434d-86ff-bb1d2917e6f3)
+
+
