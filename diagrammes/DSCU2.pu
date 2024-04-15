@@ -1,0 +1,40 @@
+@startuml test
+hide footbox
+actor Joueur
+participant Menu
+participant System
+database BD
+
+Joueur -> Menu: Acceder "Analyser les Performances"
+Menu -> System: Demander les statistiques du joueur
+activate System
+System -> BD: getStatistics()
+activate BD
+BD --> BD: Recherche en cours...
+BD --> System: Renvoyer la valeur de la demande
+deactivate BD
+alt Statistiques disponibles
+
+    System --> Menu: Afficher les statistiques du joueur
+    
+
+    Menu --> Joueur: Afficher les statistiques du joueur
+else Pas de statistiques disponibles
+
+
+    System --> Menu: Pas de statistiques disponibles
+
+    Menu --> Joueur: Afficher le message : "Les statistiques seront disponibles une fois que vous aurez joué."
+else Erreur lors de l'accès aux statistiques
+
+    System --> Menu: Erreur lors de l'accès aux statistiques
+
+    Menu --> Joueur: Afficher le message d'erreur
+    Joueur -> Menu: getsolution()
+    Menu --> System: Dépannage
+    System --> Menu: Solution
+    deactivate System
+    Menu --> Joueur: afficher Solution
+end
+
+@enduml

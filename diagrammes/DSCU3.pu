@@ -1,0 +1,21 @@
+@startuml Authentification
+hide footbox
+actor Utilisateur
+participant Systeme
+database BD
+
+Utilisateur -> Systeme: Accéder à la page de connexion
+activate Systeme
+Systeme -> Utilisateur: Présenter le formulaire de connexion
+Utilisateur -> Systeme: Entrer l'email et le mot de passe
+Systeme -> BD: getUser(email,motdepasse)
+activate BD
+BD --> Systeme: executé
+deactivate BD
+alt utilisateur existe
+    Systeme --> Utilisateur: Rediriger vers le tableau de bord
+else 
+    Systeme --> Utilisateur: Afficher un message d'erreur
+end
+
+@enduml

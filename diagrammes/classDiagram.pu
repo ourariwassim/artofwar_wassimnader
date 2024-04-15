@@ -1,0 +1,110 @@
+@startuml
+class Compte {
+  int id_compte
+  String mail
+  String nom
+  String prenom
+  String mdp
+}
+
+ class Partie {
+   int id_partie
+   String difficulte   
+   String nom
+   int nombre_joueur
+   boolean online
+   boolean timer
+   LocalDateTime temps_jeu
+}
+
+class Carte {
+
+  int id_carte
+  String titre
+  String description
+  int nombre_provinces
+
+}
+
+
+
+ abstract class pion{
+
+ int id_pion
+ int degats
+
+
+}
+class guerrier{
+
+int prix
+}
+class tireur{
+
+int prix
+}
+class milicien{
+
+int prix
+}
+
+class Joueur {
+
+  int id_joueur
+  String Joueur
+  int tour
+  int or
+  boolean IA
+  String relation 
+}
+
+
+class Statistiques {
+  int id_statistiques
+  int nombre_provinces_actuelles
+  int nombre_provinces_acquises
+  int nombre_provinces_Perdues
+  int nombre_soldats_actuel  
+  int nombre_soldats_acquis
+  int nombre_soldats_perdus
+
+}
+class Province {
+  
+  int id_province
+  string nom 
+  string biome
+  int or_collecte
+  int troupes_deployees
+
+
+}
+
+class Unite{
+
+int id_unite
+int degats_totaux
+
+}
+
+class CessezFeu{
+
+int id_cf
+
+}
+
+Compte -- Partie : > lance une
+Partie -- Carte: > Jouée sur une
+Partie -- Joueur : > Comporte plusieurs
+Joueur-- pion : > Contrôle un ou plusieurs 
+Joueur -- Province : > Controle aucune une ou plusieurs
+Joueur -- Statistiques : > peut consulter
+guerrier --|> pion
+milicien --|> pion
+tireur --|> pion
+Unite--pion : > composee d'un ou plusieurs
+Unite--Province : > deploye sur une seule
+Carte--Province : > comporte plusieurs
+Province--Province: avoisinnee par d'autres
+Joueur--CessezFeu : 2 joueurs peuvent faire un
+@enduml
