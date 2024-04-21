@@ -246,16 +246,15 @@
 
 - ***<u>Diagramme de Classe raffiné :</u>***
 
-![3336527b-3824-4ead-8868-0352f74e6b93](https://github.com/wassimourair45/adzazd/assets/167703351/41cd0ac4-4028-41c8-a061-fb0ad6474cac)
+![3336527b-3824-4ead-8868-0352f74e6b93](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/a0eb3dca-d465-428a-af7a-d2af00afb905)
 
 
 
 - ***Diagramme de machine a etat (authentification):***
 - 
-![image](https://github.com/wassimourair45/adzazd/assets/167703351/55934d32-7cdc-464d-8f8f-f430ef279809)
-
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b81618a2-ecf9-4c97-8742-9fe2caec40eb)
 
 
 - **Diagramme de machine a etat (consulter statistiques):**
 
-![image](https://github.com/wassimourair45/adzazd/assets/167703351/1112c2f7-f170-4ee8-acf2-ee4f0181e008)
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/12789ec7-7b0a-4288-ac04-c2d8e39173af)
