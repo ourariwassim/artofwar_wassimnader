@@ -1,0 +1,20 @@
+@startuml d
+
+[*] --> EnConstruction
+
+EnConstruction --> consultable 
+consultable -left-> EnDestruction :retrait de rayon
+consultable-->exportable:mise en pret/metExportable()
+exportable-->consultable :mise en consultation/metConsultable()
+exportable-->EnDestruction :retrait de rayon
+exportable-->exporté:export/export()
+exporté-->exportable:restitution/restituer()
+
+
+
+EnDestruction --> [*]
+EnDestruction:entry/destructeur()
+EnConstruction: entry/constructeur()
+
+
+@enduml

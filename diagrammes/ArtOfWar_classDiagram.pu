@@ -1,0 +1,119 @@
+@startuml
+class Compte {
+  - int id_compte
+  - String mail
+  - String nom
+  - String prenom
+  - String mdp
+}
+
+ class Partie {
+   - int id_partie
+   - String difficulte   
+   - String nom
+   - int nombre_joueur
+   - boolean online
+   - boolean timer
+   - LocalDateTime temps_jeu
+}
+
+class Carte {
+
+  - int id_carte
+  - String titre
+  - String description
+  - int nombre_provinces
+
+}
+
+
+
+ abstract class pion{
+
+ - int id_pion
+ - int degats
+
+
+}
+class guerrier{
+
+- int prix
+}
+class tireur{
+
+- int prix
+}
+class milicien{
+
+- int prix
+}
+
+class Joueur {
+
+  - int id_joueur
+  - String Nation
+  - int tour
+  - int or
+  - boolean IA
+ 
+}
+
+
+
+class Statistiques {
+  - int id_statistiques
+  - int nombre_provinces_actuelles
+  - int nombre_provinces_acquises
+  - int nombre_provinces_Perdues
+  - int nombre_soldats_actuel  
+  - int nombre_soldats_acquis
+  - int nombre_soldats_perdus
+
+}
+class Province {
+  
+  - int id_province
+  - string nom 
+  - string biome
+  - int or_collecte
+  - int troupes_deployees
+
+
+}
+
+class Unite{
+
+- int id_unite
+- int degats_totaux
+
+}
+
+class CessezFeu{
+
+- int id_cf
+
+
+}
+class Relations {
+    - etat_relation: String
+    
+
+}
+
+Relations "2" <-- "*" Joueur : ont
+
+Compte "1" -- "*" Partie :  lance une
+Partie "1" o--> "*" Carte:  Jouée sur une
+Partie "*" *--> "1" Joueur :  Comporte
+Joueur "*" *--> "1" pion :  Contrôle 
+Joueur "*" -- "1" Province :  Controle 
+Joueur "1" --> "1" Statistiques :  peut consulter
+guerrier "1" --|> "1" pion
+milicien "1" --|> "1" pion
+tireur "1" --|> "1" pion
+Unite "*"-- "1" pion :  composée de
+Unite "1" -- "1" Province :  deploye sur 
+Carte "*" *--> "1" Province :  comporte plusieurs
+Province--Province: avoisinnee par d'autres
+Joueur "*" --> "2"CessezFeu : etablir un
+@enduml
