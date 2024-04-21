@@ -1,0 +1,23 @@
+@startuml authentification
+
+[*] -->  EnConstruction
+EnConstruction --> deconnecter
+deconnecter --> connecter:si[un valide login data]/connecter()
+connecter -->deconnecter:deconnecter/logout()
+deconnecter -->deconnecter: si[invalide login data]/demande données valide
+
+EnConstruction: entry / constructeur()
+
+
+deconnecter-left->EnDestruction :retrait du rayon
+connecter-left->EnDestruction :retrait du rayon
+
+EnDestruction:entry/destructeur()
+
+EnDestruction-->[*]
+
+
+
+
+
+@enduml
