@@ -167,7 +167,8 @@
 
 > ***Diagrammes de cas d’utilisation:***
 >
-> <img src="media/image1.jpg" style="width:5.55787in;height:9.0625in" />
+> ![image1](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b26b06bc-8da5-48a8-b2aa-c9249d1c9374)
+
 >
 > **Priorités des cas d’utilisation :**
 >
@@ -230,228 +231,30 @@
     > détaillés sur leur performance, leurs réalisations, ou d'autres
     > données pertinentes pour analyse ou partage.
 
-\-
+![image2](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b4a9b18c-e32c-4fc1-b332-e8f36a9b231c)
+![image3](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/f64cf406-ad95-49c3-9411-fa1f36fea9c8)
 
-<table>
-<colgroup>
-<col style="width: 35%" />
-<col style="width: 64%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Titre</th>
-<th>Analyser les Performances</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Acteur</td>
-<td>Joueur</td>
-</tr>
-<tr class="even">
-<td>Description</td>
-<td>Permet aux joueurs de consulter leurs statistiques personnelles,
-telles que le nombre de territoires conquis, les ressources accumulées,
-les unités déployées, etc.</td>
-</tr>
-<tr class="odd">
-<td>Précondition</td>
-<td>Authentification</td>
-</tr>
-<tr class="even">
-<td>Postcondition</td>
-<td>Statistiques affichées</td>
-</tr>
-<tr class="odd">
-<td>Scénario nominal</td>
-<td><ol type="1">
-<li><p>Le joueur accède à la section "Analyser les Performances" dans le
-menu du jeu.</p></li>
-<li><p>Le système affiche les statistiques personnelles du joueur, y
-compris le nombre de territoires conquis, les ressources accumulées, les
-unités déployées, etc.</p></li>
-<li><p>Le joueur peut naviguer et filtrer les statistiques selon ses
-préférences.</p></li>
-<li><p>Le système met à jour les statistiques en temps réel pour
-refléter les changements dans le jeu.</p></li>
-<li><p>Le joueur utilise ces informations pour suivre sa progression et
-prendre des décisions stratégiques informées.</p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Scénario d’exception</td>
-<td><ol type="1">
-<li><p>Si le joueur n'a pas encore de statistiques disponibles (par
-exemple, s'il n'a pas encore commencé à jouer), le système affiche un
-message approprié informant que les statistiques seront disponibles une
-fois qu'il aura joué.</p></li>
-<li><p>Si le joueur rencontre des problèmes pour accéder à ses
-statistiques, le système affiche un message d'erreur et propose des
-solutions de dépannage.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<colgroup>
-<col style="width: 34%" />
-<col style="width: 33%" />
-<col style="width: 18%" />
-<col style="width: 13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"></th>
-<th>1</th>
-<th>2</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Précondition</td>
-<td>Authentification</td>
-<td>F</td>
-<td>T</td>
-</tr>
-<tr class="even">
-<td>Postcondition</td>
-<td>Statistiques affichées</td>
-<td>F</td>
-<td>T</td>
-</tr>
-<tr class="odd">
-<td colspan="2">Nombre de jeux de Tests</td>
-<td>1</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
+ -***Diagramme de sequence pour cas Authentification :***
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/1a9a5ee1-8f0b-462c-9a07-16ad78bc9438)
 
-<table>
-<colgroup>
-<col style="width: 35%" />
-<col style="width: 64%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Titre</th>
-<th>Récupérer les données depuis une API REST</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Acteur</td>
-<td>Joueur</td>
-</tr>
-<tr class="even">
-<td>Description</td>
-<td>Permet de récupérer des informations sur les territoires
-disponibles, les ressources disponibles, les unités de jeu, etc., à
-partir d'un serveur centralisé via une API REST.</td>
-</tr>
-<tr class="odd">
-<td>Précondition</td>
-<td>Authentification</td>
-</tr>
-<tr class="even">
-<td>Postcondition</td>
-<td>Données récupérés</td>
-</tr>
-<tr class="odd">
-<td>Scénario nominal</td>
-<td><ol type="1">
-<li><p>Le joueur accède à une fonctionnalité ou à une interface dans le
-jeu pour récupérer les données depuis l'API REST.</p></li>
-<li><p>Le système envoie une requête à l'API REST pour obtenir les
-informations nécessaires.</p></li>
-<li><p>L'API REST retourne les données demandées au système.</p></li>
-<li><p>Le système traite les données reçues et les rend disponibles dans
-le jeu pour que les joueurs puissent les utiliser.</p></li>
-<li><p>Les joueurs peuvent maintenant interagir avec les informations
-récupérées dans le monde du jeu, telles que les territoires disponibles,
-les ressources, les unités, etc.</p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Scénario d’exception</td>
-<td><ol type="1">
-<li><p>Si la connexion à l'API REST échoue, le système affiche un
-message d'erreur indiquant que les données ne peuvent pas être
-récupérées pour le moment. Il propose également des solutions de
-dépannage.</p></li>
-<li><p>Si les données retournées par l'API REST sont incomplètes ou
-corrompues, le système affiche un avertissement indiquant que les
-informations peuvent être incorrectes et conseille aux joueurs de
-réessayer ultérieurement.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+ -***Diagramme de sequence pour cas AnalysePerformance :***
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/3b01e895-1ba9-44c7-bab6-19e75748951d)
 
-<table>
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 27%" />
-<col style="width: 22%" />
-<col style="width: 21%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"></th>
-<th>1</th>
-<th>2</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Précondition</td>
-<td>Authentification</td>
-<td>F</td>
-<td>T</td>
-</tr>
-<tr class="even">
-<td>Postcondition</td>
-<td>Données récupérées</td>
-<td>F</td>
-<td>T</td>
-</tr>
-<tr class="odd">
-<td colspan="2">Nombre de jeux de Tests</td>
-<td>1</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-
-> **Diagramme de sequence pour cas Authentification:**
->
-> <img src="media/image2.png" style="width:4.88542in;height:3.70833in" />
->
-> **Diagramme de sequence pour cas AnalysePerformance:**
->
-> <img src="media/image3.png" style="width:5.75379in;height:3.375in" />
->
-> **Diagramme de sequence pour cas Cessez-le-feu:**
->
-> <img src="/media/image5.png" style="width:5.24148in;height:3.34564in" />
+ -***Diagramme de sequence pour cas Cessez-le-feu :***
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/db9aef6d-f3b2-4db9-8e9c-437cfc14cc49)
 
 - ***<u>Diagramme de Classe raffiné :</u>***
 
-> <img src="/media/image6.png" style="width:5.99792in;height:4.20621in"
-> alt="Une image contenant texte, diagramme, Plan, Police Description générée automatiquement" />
+![3336527b-3824-4ead-8868-0352f74e6b93](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/a0eb3dca-d465-428a-af7a-d2af00afb905)
+
+
 
 - ***Diagramme de machine a etat (authentification):***
+- 
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b81618a2-ecf9-4c97-8742-9fe2caec40eb)
 
-> <img src="/media/image7.png" style="width:5.52083in;height:3.48958in" />
 
 - **Diagramme de machine a etat (consulter statistiques):**
 
-> <img src="/media/image8.png" style="width:5.60417in;height:4.83333in" />
-
-![Uploading image.png…]()
-
-![Uploading image.png…]()
-
-
-![Uploading 3336527b-3824-4ead-8868-0352f74e6b93.jpeg…]()
+![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/12789ec7-7b0a-4288-ac04-c2d8e39173af)
