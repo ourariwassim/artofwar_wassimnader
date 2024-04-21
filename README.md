@@ -246,12 +246,13 @@
 
 - ***<u>Diagramme de Classe raffiné :</u>***
 
-> <img src="/media/image6.png" style="width:5.99792in;height:4.20621in"
+> 
 > alt="Une image contenant texte, diagramme, Plan, Police Description générée automatiquement" />
 
 - ***Diagramme de machine a etat (authentification):***
+- 
+![classDiagram](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/2f9c0311-6400-474a-80f5-e5fdba1948f6)
 
-> <img src="/media/image7.png" style="width:5.52083in;height:3.48958in" />
 
 - **Diagramme de machine a etat (consulter statistiques):**
 
