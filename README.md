@@ -448,3 +448,10 @@ réessayer ultérieurement.</p></li>
 - **Diagramme de machine a etat (consulter statistiques):**
 
 > <img src="/media/image8.png" style="width:5.60417in;height:4.83333in" />
+
+![Uploading image.png…]()
+
+![Uploading image.png…]()
+
+
+![Uploading 3336527b-3824-4ead-8868-0352f74e6b93.jpeg…]()
