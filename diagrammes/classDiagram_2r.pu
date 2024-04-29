@@ -1,4 +1,12 @@
 @startuml
+
+
+class Jeu{
+
+- String nom
+
+}
+
 class Compte {
   - int id_compte
   - String mail
@@ -174,7 +182,7 @@ note left of CessezFeu
 end note
 
 Relations "2" -- "*" Joueur : ont
-
+Jeu o--Compte 
 Compte "1" --> "*" Partie :  lance une
 Partie "1" o--> "*" Carte:  Jouée sur une
 Partie "*" *--> "1" Joueur :  Comporte
