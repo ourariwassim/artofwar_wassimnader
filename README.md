@@ -250,7 +250,6 @@
 
 ![ArtOfWar_classDiagram](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/357ffec9-3b69-4463-a551-4e7b0107d453)
 
-![3336527b-3824-4ead-8868-0352f74e6b93](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/a0eb3dca-d465-428a-af7a-d2af00afb905)
 
 
 
