@@ -1,0 +1,192 @@
+@startuml
+class Compte {
+  - int id_compte
+  - String mail
+  - String nom
+  - String prenom
+  - String mdp
+
+  
+}
+note right of Compte
+ Nouvel attribut
+ -Partie Partie
+end note
+
+ class Partie {
+   - int id_partie
+   - String difficulte   
+   - String nom
+   - int nombre_joueur
+   - boolean online 
+   - boolean timer = false 
+   - /Duration temps_jeu = Duration.ofMinutes(30);
+
+}
+
+
+note right of Partie
+Nouveaux attributs
+- Carte Carte
+- ArrayList<Joueur> Joueurs 
+ 
+end note
+
+note right of Partie::temps_jeu
+30 minutes si timer = true sinon inutilisable. Cette valeur est modifiee a la fin de chaque tour
+end note
+
+
+class Carte {
+
+  - int id_carte
+  - String titre
+  - String description
+  - int nombre_provinces
+
+
+  
+}
+note right of Carte
+Nouvel attribut
+- ArrayList<Province> Provinces
+
+end note
+
+
+ abstract class pion{
+
+ - int id_pion
+ - int degats = 100
+}
+
+note right of pion
+Nouvel attribut
+- int id_unite
+end note
+
+class guerrier{
+
+- int prix = 25
+}
+class tireur{
+
+- int prix = 35
+}
+class milicien{
+
+- int prix = 15
+}
+
+class Joueur {
+
+  - int id_joueur
+  - String Nation
+  - int tour
+  - int or = 300
+  - boolean IA
+
+}
+
+note right of Joueur 
+Nouveaux attributs
+ Statistiques Statistiques
+ - ArrayList<CessezFeu> cessez_feu
+ - ArrayList<Relations> relations
+  end note
+
+
+
+
+class Statistiques {
+  - int id_statistiques
+  - int nombre_provinces_actuelles
+  - int nombre_provinces_acquises = 0
+  - int nombre_provinces_Perdues = 0 
+  - int nombre_soldats_actuel  
+  - int nombre_soldats_acquis = 0
+  - int nombre_soldats_perdus = 0
+
+}
+class Province {
+  
+  - int id_province
+  - string nom 
+  - string biome
+  - int or_collecte
+  - int troupes_deployees
+
+}
+note bottom of Province
+
+  - Joueur joueur_occupant
+  - ArrayList<Province> provinces_voisines
+  - Unite unite_occupante
+
+end note 
+
+
+class Unite{
+
+- int id_unite
+- /degats_totaux : int : { int  id_unité, String : biome }
+
+}
+
+note bottom of Unite
+
+degats_totaux est calcule a partir de la somme des degats des pions d'une unite. 
+Un pourcentage bonus est applique pour une unite selon le biome
+
+end note
+
+note right of Unite
+Nouveaux attributs :
+
+-int id_pion
+-Province province_occupee
+
+end note
+
+class CessezFeu{
+
+- int id_cf
+
+
+}
+
+
+class Relations {
+    - String etat_relation
+
+}
+
+
+note left of Relations 
+-Joueur Joueur1
+-Joueur Joueur2
+end note
+
+
+note left of CessezFeu 
+-Joueur Joueur1
+-Joueur Joueur2
+end note
+
+Relations "2" -- "*" Joueur : ont
+
+Compte "1" --> "*" Partie :  lance une
+Partie "1" o--> "*" Carte:  Jouée sur une
+Partie "*" *--> "1" Joueur :  Comporte
+Joueur "*" *--> "1" pion :  Contrôle 
+Joueur "*" -- "1" Province :  Controle 
+Joueur "1" --> "1" Statistiques :  peut consulter
+guerrier "1" --|> "1" pion
+milicien "1" --|> "1" pion
+tireur "1" --|> "1" pion
+Unite "*"-- "1" pion :  composée de
+Unite "1" -- "1" Province :  deploye sur 
+Carte "*" *--> "1" Province :  comporte plusieurs
+Province--Province: avoisinnee par d'autres
+Joueur "*" -- "2"CessezFeu : etablir un
+@enduml

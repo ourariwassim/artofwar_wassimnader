@@ -246,6 +246,10 @@
 
 - ***<u>Diagramme de Classe raffiné :</u>***
 
+
+
+![ArtOfWar_classDiagram](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/357ffec9-3b69-4463-a551-4e7b0107d453)
+
 ![3336527b-3824-4ead-8868-0352f74e6b93](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/a0eb3dca-d465-428a-af7a-d2af00afb905)
 
 
@@ -258,3 +262,14 @@
 - **Diagramme de machine a etat (consulter statistiques):**
 
 ![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/12789ec7-7b0a-4288-ac04-c2d8e39173af)
+
+
+**Langage propositionnelle de classes statistiques::**
+>((consultable)^ (nombre_provinces _actuelles != null) ^(nombre_provinces _acquises != null)
+>^(nombre_provinces _perdues != null )
+>^(nombre_soldats_actuel != null)
+>^(Nombre_soldats_perdus != null))
+>=>consult
+>![c1](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/cdc9d9ba-c190-44e6-9677-17767b4d12a6)
+
+
