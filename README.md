@@ -246,11 +246,8 @@
 
 - ***<u>Diagramme de Classe raffiné :</u>***
 
+![classDiagramme2](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/e59b6067-9f2b-475f-838b-c8773b12c717)
 
-
-![ArtOfWar_classDiagram](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/357ffec9-3b69-4463-a551-4e7b0107d453)
-
-![3336527b-3824-4ead-8868-0352f74e6b93](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/a0eb3dca-d465-428a-af7a-d2af00afb905)
 
 
 
