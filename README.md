@@ -249,8 +249,6 @@
 ![classDiagramme2](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983405/e59b6067-9f2b-475f-838b-c8773b12c717)
 
 
-
-
 - ***Diagramme de machine a etat (authentification):***
 - 
 ![image](https://github.com/ourariwassim/artofwar_wassimnader/assets/162983343/b81618a2-ecf9-4c97-8742-9fe2caec40eb)
