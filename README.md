@@ -174,25 +174,25 @@
 >
 > **Haute priorité** :
 
-- **Gérer les Éléments Stratégiques (gameplay):**
+> **Gérer les Éléments Stratégiques (gameplay):**
 
 <!-- -->
 
-- interagir et de prendre des décisions stratégiques pour influencer le
+> interagir et de prendre des décisions stratégiques pour influencer le
   > déroulement du jeu, en gérant divers éléments tels que les factions,
   > les territoires et les ressources disponibles.
 
 <!-- -->
 
-- **Récupérer les données à partir d'une API REST :**
+> **Récupérer les données à partir d'une API REST :**
 
-  - la récupération des informations sur les territoires disponibles,
+  > la récupération des informations sur les territoires disponibles,
     > les ressources disponibles, les unités de jeu, etc., à partir d'un
     > serveur centralisé.
 
-- **Analyser les Performances :**
+> **Analyser les Performances :**
 
-  - Les joueurs pourraient consulter leurs statistiques personnelles,
+  > Les joueurs pourraient consulter leurs statistiques personnelles,
     > telles que le nombre de territoires conquis,les ressources
     > accumulées, les unités déployées, etc.
 
@@ -205,29 +205,29 @@
 
 > **Moyenne priorité :**
 
-- **Collecter les données :**
+> **Collecter les données :**
 
-  - Cette fonctionnalité pourrait impliquer la collecte de données sur
+  > Cette fonctionnalité pourrait impliquer la collecte de données sur
     > les actions des joueurs, telles que les mouvements sur la carte,
     > les interactions avec d'autres joueurs ou factions, etc.
 
-- **Gérer les Comptes utilisateurs :**
+> **Gérer les Comptes utilisateurs :**
 
-  - Permettre aux joueurs de créer et de gérer leurs profils et comptes
+  > Permettre aux joueurs de créer et de gérer leurs profils et comptes
     > utilisateurs, y compris la personnalisation des paramètres, la
     > gestion des amis, etc.
 
 > **Basse priorité :**
 
-- **Gérer des tableaux de bord :**
+> **Gérer des tableaux de bord :**
 
-  - Permettre aux joueurs de personnaliser leurs tableaux de bord,
+  > Permettre aux joueurs de personnaliser leurs tableaux de bord,
     > d'afficher des informations spécifiques ou des indicateurs de
     > performance.
 
-- **Export :**
+> **Export :**
 
-  - Les joueurs pourraient avoir la possibilité d'exporter des rapports
+  > Les joueurs pourraient avoir la possibilité d'exporter des rapports
     > détaillés sur leur performance, leurs réalisations, ou d'autres
     > données pertinentes pour analyse ou partage.
 
