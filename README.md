@@ -81,7 +81,7 @@
 - *S’authentifier*: Utiliser un mail et un mot de passe.*
 
 - *Configurer les paramètres audios* : Baisser ou augmenter le volume
-  > du jeu*
+  du jeu
 
 - *Lancer une partie * Ouvre l’interface de paramétrage de parties
   > pour préparer celle-ci.
