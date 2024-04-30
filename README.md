@@ -196,7 +196,7 @@
     > telles que le nombre de territoires conquis,les ressources
     > accumulées, les unités déployées, etc.
 
-- **Authentification :**
+> **Authentification :**
 
   - L'authentification est cruciale pour assurer la sécurité des comptes
     > des joueurs et garantir un accès sécurisé aux fonctionnalités du
