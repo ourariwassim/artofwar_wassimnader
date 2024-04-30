@@ -78,7 +78,7 @@
 >
 > ***-Menu Principal :***
 
-> *S’authentifier*: Utiliser un mail et un mot de passe.*
+> S’authentifier: Utiliser un mail et un mot de passe.
 
 > *Configurer les paramètres audios* : Baisser ou augmenter le volume
   du jeu
@@ -198,7 +198,7 @@
 
 > **Authentification :**
 
-  - L'authentification est cruciale pour assurer la sécurité des comptes
+L'authentification est cruciale pour assurer la sécurité des comptes
     > des joueurs et garantir un accès sécurisé aux fonctionnalités du
     > jeu, notamment la sauvegarde des  
     > progrès et la gestion des données personnelles.
