@@ -55,7 +55,7 @@
 >
 > ***<u>Notions de base/Contraintes :</u>***
 >
-> *-L’IA doit avoir un esprit tactique satisfaisant. -*
+> L’IA doit avoir un esprit tactique satisfaisant. 
 
 >Interface simple à consulter et à comprendre
 
@@ -103,7 +103,7 @@
   > de visualiser l’état actuel des relations avec les autres joueurs
   > (Paix, En Guerre, Cessez-le-feu)*
 
-- *Envoyer une demande de Cessez-le-Feu* : Permet d’envoyer une
+> *Envoyer une demande de Cessez-le-Feu* : Permet d’envoyer une
   > demande de cessez-le-feu a un joueur ennemi : Si le joueur est une
   > IA, il y a 50% de chance qu’il accepte cette demande et la
   > respectera jusqu’à ce que le joueur Humain reprenne la guerre.*
@@ -143,7 +143,7 @@
 > *Ouvrir l’Interface Options :* Permet d’ouvrir l’interface des
   > Options.*
 
-> *-Affichage du logiciel :*
+> *Affichage du logiciel :*
 
 > *Annoncer une déclaration de guerre* : Lorsque le joueur attaque un
   > ennemi ou se fait attaquer*
@@ -155,10 +155,10 @@
   > commencé et obtient une quantité d’or qui dépend du nombre de
   > provinces occupées.*
 
-- *Annoncer la prise/perte d’une province* : Lorsqu’une province est
+>*Annoncer la prise/perte d’une province* : Lorsqu’une province est
   > capturée à la suite d’une bataille*
 
-- *Annoncer la perte d’une unité* : Indique le lieu et l’unité
+  >*Annoncer la perte d’une unité* : Indique le lieu et l’unité
   > perdue*
 
 > *Annoncer au joueur qu’il n’a pas les moyens de produire une
