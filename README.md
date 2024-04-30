@@ -198,7 +198,7 @@
 
 > **Authentification :**
 
-  - L'authentification est cruciale pour assurer la sécurité des comptes
+L'authentification est cruciale pour assurer la sécurité des comptes
     > des joueurs et garantir un accès sécurisé aux fonctionnalités du
     > jeu, notamment la sauvegarde des  
     > progrès et la gestion des données personnelles.
