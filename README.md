@@ -59,17 +59,17 @@
 
 >Interface simple à consulter et à comprendre
 
-- Batailles stratégiques Joueur vs Joueur ou Joueur vs AI pour la
+>Batailles stratégiques Joueur vs Joueur ou Joueur vs AI pour la
   > capture de provinces
 
-- Instaurer un système de gestion des relations diplomatiques
+> Instaurer un système de gestion des relations diplomatiques
 
-- Instaurer un système de gain et de dépense de la ressource en or et
+>Instaurer un système de gain et de dépense de la ressource en or et
   > favoriser un style de jeu dynamique
 
-- Permettre la gestion et la production stratégique de troupes
+> Permettre la gestion et la production stratégique de troupes
 
-- Le joueur doit pouvoir s’authentifier à son compte pour. retrouver sa
+> Le joueur doit pouvoir s’authentifier à son compte pour. retrouver sa
   > progression
 
 > ***<u>Spécifications du Projet :</u>***
@@ -78,28 +78,28 @@
 >
 > ***-Menu Principal :***
 
-- *S’authentifier*: Utiliser un mail et un mot de passe.*
+> *S’authentifier*: Utiliser un mail et un mot de passe.*
 
-- *Configurer les paramètres audios* : Baisser ou augmenter le volume
+> *Configurer les paramètres audios* : Baisser ou augmenter le volume
   du jeu
 
-- *Lancer une partie * Ouvre l’interface de paramétrage de parties
+> *Lancer une partie * Ouvre l’interface de paramétrage de parties
   > pour préparer celle-ci.
 
-- *Configurer les paramètres de partie :* Paramétrer les conditions
+>*Configurer les paramètres de partie :* Paramétrer les conditions
   > de victoire : Joueur contre Joueur ou Joueur contre Machine ,
   > Utiliser une horloge ou un nombre de points maximum, local ou en
   > ligne .*
 
-> *-Options*
+> *Options*
 
-- *Consulter les statistiques d’un joueur ou de l’IA :* Statistiques
+> *Consulter les statistiques d’un joueur ou de l’IA :* Statistiques
   > de capture : Nombre de provinces capturées, nombre de provinces
   > perdues, Nombre de province contrôlées et Statistiques de l’armée :
   > Nombre de soldats en vie, nombre de soldats perdus, Nombre actuel de
   > soldats*
 
-- *Consulter les relations avec les autres joueurs et l’IA *: Permet
+> *Consulter les relations avec les autres joueurs et l’IA *: Permet
   > de visualiser l’état actuel des relations avec les autres joueurs
   > (Paix, En Guerre, Cessez-le-feu)*
 
@@ -108,50 +108,50 @@
   > IA, il y a 50% de chance qu’il accepte cette demande et la
   > respectera jusqu’à ce que le joueur Humain reprenne la guerre.*
 
-- *Fermer Options* : Permet de retourner sur la Carte du jeu*
+> *Fermer Options* : Permet de retourner sur la Carte du jeu*
 
-- *Abandonner la partie* : Retourner au menu de jeu.*
+> *Abandonner la partie* : Retourner au menu de jeu.*
 
-- *Exporter les statistiques de la partie* : Permet d’enregistrer un
+> *Exporter les statistiques de la partie* : Permet d’enregistrer un
   > fichier contenant les statistiques de la partie pour d’éventuelles
   > analyses de performance.*
 
-- *Consulter l’aide *: Permet d’avoir accès a une liste de conseils
+> *Consulter l’aide *: Permet d’avoir accès a une liste de conseils
   > et d’indications.*
 
 > *-Carte du jeu :*
 
-- *Passer le tour :* Permet de passer son tour de jeu : S’exécute
+> *Passer le tour :* Permet de passer son tour de jeu : S’exécute
   > automatiquement après la prise d’une province/déplacement d’une
   > unité.
 
-- *Sélectionner une province :* Permet de consulter les armées
+> *Sélectionner une province :* Permet de consulter les armées
   > présentes dans la province, l’or obtenu lors de la conquête de la
   > province, le joueur qui la possède et les icones de fabrication de
   > troupes*
 
-- *Sélectionner une unité :* Permet de consulter l’unité sélectionnée
+> *Sélectionner une unité :* Permet de consulter l’unité sélectionnée
   > pour pouvoir la déplacer*
 
-- *Former un pion :* Se fait après avoir sélectionné une province
+> *Former un pion :* Se fait après avoir sélectionné une province
   > conquise, un pion selon son type coûtera X quantité d’or.*
 
-- *Déplacer une unité :* Après avoir cliqué sur un pion, le joueur
+> *Déplacer une unité :* Après avoir cliqué sur un pion, le joueur
   > pourra choisir une province ou l’envoyer, à condition que celle-ci
   > soit une province voisine a sa province de déploiement actuelle*
 
-- *Ouvrir l’Interface Options :* Permet d’ouvrir l’interface des
+> *Ouvrir l’Interface Options :* Permet d’ouvrir l’interface des
   > Options.*
 
 > *-Affichage du logiciel :*
 
-- *Annoncer une déclaration de guerre* : Lorsque le joueur attaque un
+> *Annoncer une déclaration de guerre* : Lorsque le joueur attaque un
   > ennemi ou se fait attaquer*
 
-- *Annoncer une fin de partie :* Lorsqu’une condition de fin de
+> *Annoncer une fin de partie :* Lorsqu’une condition de fin de
   > partie est valide*
 
-- *Annoncer le début de tour* : Le joueur est averti que son tour a
+> *Annoncer le début de tour* : Le joueur est averti que son tour a
   > commencé et obtient une quantité d’or qui dépend du nombre de
   > provinces occupées.*
 
@@ -161,7 +161,7 @@
 - *Annoncer la perte d’une unité* : Indique le lieu et l’unité
   > perdue*
 
-- *Annoncer au joueur qu’il n’a pas les moyens de produire une
+> *Annoncer au joueur qu’il n’a pas les moyens de produire une
    unité : Lorsque le joueur clique sur icone de fabrication d’unité
    mais n’a pas l’or requis pour la fabriquer.*
 
