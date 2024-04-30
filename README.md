@@ -78,7 +78,7 @@
 >
 > ***-Menu Principal :***
 
-> *S’authentifier*: Utiliser un mail et un mot de passe.*
+> S’authentifier: Utiliser un mail et un mot de passe.
 
 > *Configurer les paramètres audios* : Baisser ou augmenter le volume
   du jeu
