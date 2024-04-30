@@ -57,7 +57,7 @@
 >
 > *-L’IA doit avoir un esprit tactique satisfaisant. -*
 
-Interface simple à consulter et à comprendre
+>Interface simple à consulter et à comprendre
 
 - Batailles stratégiques Joueur vs Joueur ou Joueur vs AI pour la
   > capture de provinces
